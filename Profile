@@ -1,0 +1,1 @@
+web: build/install/com.example.wishlistserver/bin/com.example.wishlistserver
