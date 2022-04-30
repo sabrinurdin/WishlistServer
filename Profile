@@ -1,1 +1,1 @@
-web: build/install/com.example.wishlistserver/bin/com.example.wishlistserver
+web: build/install/com.example.wishlist-server-app/bin/com.example.wishlist-server-app
