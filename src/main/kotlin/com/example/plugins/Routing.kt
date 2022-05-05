@@ -1,6 +1,7 @@
 package com.example.plugins
 
 import com.example.routes.getAllWishlist
+import com.example.routes.root
 import io.ktor.routing.*
 import io.ktor.http.*
 import io.ktor.application.*
@@ -10,6 +11,8 @@ import io.ktor.request.*
 fun Application.configureRouting() {
 
     routing {
-     getAllWishlist()
+        root()
+        getAllWishlist()
+
     }
 }
